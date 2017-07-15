@@ -1,9 +1,20 @@
-include lib/main.mk
+DRAFTS = impreport
+OUTPUTS = $(foreach draft,$(DRAFTS),draft-${draft}.html draft-${draft}.xml draft-${draft}.txt)
+STAGING = staging.xml
 
-lib/main.mk:
-ifneq (,$(shell git submodule status lib 2>/dev/null))
-	git submodule sync
-	git submodule update --init
-else
-	git clone -q --depth 10 -b master https://github.com/martinthomson/i-d-template.git lib
-endif
+all: $(OUTPUTS)
+
+clean:
+	rm -f $(OUTPUTS) *.$(STAGING)
+
+draft-%.html: draft-%.xml
+	xml2rfc $< --html
+
+draft-%.xml: draft-%.md
+	kramdown-rfc2629 $< > $*.$(STAGING)
+	mv $*.$(STAGING) $@
+
+draft-%.txt: draft-%.xml
+	xml2rfc $< --text
+
+.PHONY: all clean
