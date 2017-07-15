@@ -1,4 +1,4 @@
-DRAFTS = impreport
+DRAFTS = 451-imp-report
 OUTPUTS = $(foreach draft,$(DRAFTS),draft-${draft}.html draft-${draft}.xml draft-${draft}.txt)
 STAGING = staging.xml
 
