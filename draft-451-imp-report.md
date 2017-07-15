@@ -1,5 +1,5 @@
 ---
-title: Impmentation Report for HTTP 451 (RFC7725) Hackathon
+title: Implementation Report for HTTP Status Code 451 (RFC 7725)
 abbrev: 451ImpReport
 docname: draft-451-imp-report-latest
 date: 2017-07-15
