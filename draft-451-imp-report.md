@@ -70,6 +70,40 @@ informative:
         - ins: J.A. Halderman
      target: https://www.censys.io/ipv4?q=80.http.get.status_code%3A+451
 
+   Github:
+     title: The 451 status code is now supported
+     date: 2016
+     author:
+        - ins: G. Torikian
+     target: https://developer.github.com/changes/2016-03-17-the-451-status-code-is-now-supported/
+
+   Twitter:
+     title: Country withheld content
+     author:
+        - org: Twitter, inc.
+     target: https://support.twitter.com/articles/20169222#
+
+   Facebook:
+     title: How do I add or edit country or age restrictions for my Page?
+     author:
+        - org: Facebook, inc.
+     target: https://developer.github.com/changes/2016-03-17-the-451-status-code-is-now-supported/
+
+   Youtube:
+     title: Censorship of YouTube
+     date: 2017
+     author:
+        - org: Wikipedia
+     target: https://en.wikipedia.org/wiki/Censorship_of_YouTube
+
+   Reddit:
+     title: LGBTI sections disappear as Reddit complies with 100% of Turkey censorship orders
+     date: 2017
+     author:
+        - org: Turkey Blocks
+     target: https://turkeyblocks.org/2017/04/04/lgbti-sections-disappear-as-reddit-complies-with-turkey-censorship-orders/
+ 
+
 --- abstract
 
 This report describes implementation experience between various components working with the HTTP Status Code 451 {{RFC7725}}.
@@ -147,6 +181,8 @@ Current Usage
 In the majority of cases in which HTTP status code 451 is being deployed {{Censys}}, the status code reads as follows - "451 Unavailable For Legal Reasons" or "451" or "451 Unknown Error" or "451 Error" or "451 Unavailable For Legal Reasons (burned)" or "451 OK". The Page Title could say "404 Not Found" or "Blocked" or "451 -" or "Restricted access" or "Bloqueado por ordem judicial" ("Blocked by judicial order") or "Sito censurato" ("Censored site") or "Доступ ограничен" ("Access is restricted") or "Зелёная точка - доступ к запрашиваемому ресурсу ограничен" ("Zelenaya tochka" - Internet and TV provider - access to the requested resource is restricted")or "Violazione del bispensiero" or "Please report sexual abuse against children to the Swedish National  Bureau of Investigation!" or "Copyright Notice" or "451 RKN Redirect" (RKN is likely Russia's Roskomnadzor) or "ATTENZIONE!! - POLIZIA POSTALE E DELLE COMUNICAZIONI - PAGINA BLOCCATA" ("Attention! - Postal and Communications Policy - Blocked Page") or "451 Unavailable For Legal Reasons 本网站由于国家政策而不可用" (Chinese: "This site is not available due to national policy").   
 
 The hosts that were observed implementing the status code are located in Russia, United States of America, Singapore, Czech Republic, Thailand, Netherlands, Portugal, Spain, Italy, Greece, Bulgaria, Hungary, Germany, France, United Kingdom, Ukraine, Norway, Finland, Kazakhstan, United Arab Emirates, Japan, China, Philippines and Australia. In some cases - the visitor to the website is provided some context for the block -- for example, a take-down notice for copyright infringment -- in other cases the visitor is encouraged to  cooperate with law enforcement agencies. The page title may have information that does not always make sense in the context of the error code, for example when the title says "404 Not Found" but the page is a 451 response body. These observations are based an examination of the search results from Censys.io on 15 July 2017 which featured 526 IPv4 Hosts of which 17 were included in the list of "Top Million Websites".
+
+Several large content providers are now supporting the HTTP 451 Status Code, such as {{Github}} and {{Reddit}}, whereas other content providers such as {{Twitter}}, {{Facebook}}, and {{Youtube}} are currently not using the HTTP status code to indicate the blocking or takedown of specific content.
 
 # Trends and observations
 
