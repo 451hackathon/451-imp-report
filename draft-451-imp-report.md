@@ -224,21 +224,23 @@ In the light of the use cases outlined above underneath we are providing an over
 
 Blocking by the government:
 
-## Federal Law of 27 July 2006 No. 149-FZ on Information, Information Technologies and Protection of Information and its amendments:
+## Federal Law of 27 July 2006
+Law No. 149-FZ on Information, Information Technologies and Protection of Information and its amendments:
 
-###  “Blacklist” law 139-FZ (2012) – allowing to block websites if they appear to have dangerous information for children such as information about suicide and drugs. The blocking was often done by keyword so as a result one of the biggest wiki sites in Russia (Lukmore) was accused of drugs propaganda, an online encyclopedia (Absurdopedia) was accused of suicide propaganda and an online game was blocked because on it’s forum somebody used a word “drug”. 
+- “Blacklist” law 139-FZ (2012) – allowing to block websites if they appear to have dangerous information for children such as information about suicide and drugs. The blocking was often done by keyword so as a result one of the biggest wiki sites in Russia (Lukmore) was accused of drugs propaganda, an online encyclopedia (Absurdopedia) was accused of suicide propaganda and an online game was blocked because on it’s forum somebody used a word “drug”. 
 
-### “Anti-pirate” law 187-FZ (2013) – easier way for the government to block access to websites if they are suspected in any wrongdoing. The amendment also allows blocking by IP address. Leads to the blockage of portals such as OpenSharing.org 
+- “Anti-pirate” law 187-FZ (2013) – easier way for the government to block access to websites if they are suspected in any wrongdoing. The amendment also allows blocking by IP address. Leads to the blockage of portals such as OpenSharing.org 
 
-###  The law 398-FZ on immediate blockage of websites at the request of Prosecutor General (2013).
+- The law 398-FZ on immediate blockage of websites at the request of Prosecutor General (2013).
 
-###  “Bloggers’ amendment” 97-FZ (2014)  – bloggers with more than 3000 need to register as mass media (“information distributors”) and have the same responsibilities (including on what their readers post in comments).
+- “Bloggers’ amendment” 97-FZ (2014)  – bloggers with more than 3000 need to register as mass media (“information distributors”) and have the same responsibilities (including on what their readers post in comments).
 
-###  Data localization law 242-FZ (2015) all companies collecting personal data of the Russian citizens must store that information on the servers within Russia
+- Data localization law 242-FZ (2015) all companies collecting personal data of the Russian citizens must store that information on the servers within Russia
 
-### The laws against extremism that have been updated throughout the past 5 years expanding the term “extremism” and making the punishment tougher (jail terms for posting and reposting) as well as blocking. These laws have been used widely after the conflict in Ukraine. Some people got jail sentences and resources were being blocked for spreading information sympathizing with the Ukrainian side. Such laws are particularly vague and “extremism” is very laxly defined. For example, “…extremist materials, as well as information propagating racial, national or religious hatred or enmity or hatred towards any social group.” 
+- The laws against extremism that have been updated throughout the past 5 years expanding the term “extremism” and making the punishment tougher (jail terms for posting and reposting) as well as blocking. These laws have been used widely after the conflict in Ukraine. Some people got jail sentences and resources were being blocked for spreading information sympathizing with the Ukrainian side. Such laws are particularly vague and “extremism” is very laxly defined. For example, “…extremist materials, as well as information propagating racial, national or religious hatred or enmity or hatred towards any social group.” 
 
-## “Yarovaya laws” was approved by the Parliament and, if passed, will oblige messaging apps to store messaging history and decrypt messages at prosecutors’ request. 
+## “Yarovaya laws” 
+This law was approved by the Parliament and, if passed, will oblige messaging apps to store messaging history and decrypt messages at prosecutors’ request. 
 
 # Chile
 
