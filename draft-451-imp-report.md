@@ -70,45 +70,13 @@ informative:
         - ins: J.A. Halderman
      target: https://www.censys.io/ipv4?q=80.http.get.status_code%3A+451
 
-   Github:
-     title: The 451 status code is now supported
-     date: 2016
-     author:
-        - ins: G. Torikian
-     target: https://developer.github.com/changes/2016-03-17-the-451-status-code-is-now-supported/
-
-   Twitter:
-     title: Country withheld content
-     author:
-        - org: Twitter, inc.
-     target: https://support.twitter.com/articles/20169222#
-
-   Facebook:
-     title: How do I add or edit country or age restrictions for my Page?
-     author:
-        - org: Facebook, inc.
-     target: https://developer.github.com/changes/2016-03-17-the-451-status-code-is-now-supported/
-
-   Youtube:
-     title: Censorship of YouTube
-     date: 2017
-     author:
-        - org: Wikipedia
-     target: https://en.wikipedia.org/wiki/Censorship_of_YouTube
-
-   Reddit:
-     title: LGBTI sections disappear as Reddit complies with 100% of Turkey censorship orders
-     date: 2017
-     author:
-        - org: Turkey Blocks
-     target: https://turkeyblocks.org/2017/04/04/lgbti-sections-disappear-as-reddit-complies-with-turkey-censorship-orders/
- 
 
 --- abstract
 
 This report describes implementation experience between various components working with the HTTP Status Code 451 {{RFC7725}}.
 
 --- middle
+
 
 Introduction
 ============
@@ -290,3 +258,5 @@ Increasingly Indian courts are issuing ex-parte John Doe orders for website bloc
 
 ## Takedowns by web sites
 Under Section 79 of the Information Technology Act 2000, both the government and private parties can send take-down notices to web sites. Intermediaries can ignore private party take-downs without losing immunity but take-down notices from the government have to be complied with. Under Section 52(1)(c) of the Indian Copyright Act, take-down notices can be sent to websites who are engaged in infringement but they need to be followed by court orders otherwise the content can be reinstated. 
+
+# United States of America
