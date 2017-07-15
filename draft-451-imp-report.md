@@ -15,21 +15,15 @@ pi: [toc, sortrefs, symrefs]
 
 author:
  -
-    ins: K. Hartke
-    name: Klaus Hartke
-    organization: Universität Bremen TZI
-    email: hartke@tzi.org
+    ins: J. Hall
+    name: Joseph Lorenzo Hall
+    organization: CDT
+    email: joe@cdt.org
  -
-    ins: C. Bormann
-    name: Carsten Bormann
-    org: Universität Bremen TZI
-    street: Postfach 330440
-    city: Bremen
-    code: D-28359
-    country: Germany
-    phone: +49-421-218-63921
-    facsimile: +49-421-218-7000
-    email: cabo@tzi.org
+    ins: F. Example
+    name: Foo Example
+    org: Example Org
+    email: foo@example.org
 
 normative:
   RFC2119:
