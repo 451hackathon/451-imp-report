@@ -106,7 +106,7 @@ informative:
 
 --- abstract
 
-This report describes implementation experience between various components working with the HTTP Status Code 451 {{RFC7725}}.
+This report describes implementation experience between various components working with the HTTP Status Code 451 {{RFC7725}}, a risk assessment and recommendation for improvements.
 
 --- middle
 
@@ -116,7 +116,7 @@ This report describes implementation experience between various components worki
 Introduction
 ============
 
-This document aims to evaluate the usage of HTTP status code 451, which was approved by the IETF in February 2016 {{RFC7725}}. This implementation report aims to illuminate whether the status code does what it set out to do ("provide transparency in circumstances where issues of law or public policy affect server operations"), the different ways it is being used, positive and negative impacts of the standard and we end with suggestions for improvement of the standard. 
+This document evaluates the usage of HTTP Status Code 451, which was standardized by the IETF in February 2016 {{RFC7725}}. This implementation report aims to illuminate whether the status code does what it set out to do ("provide transparency in circumstances where issues of law or public policy affect server operations"), the different ways it is being used, positive and negative impacts of the standard and we end with suggestions for improvement of the standard. 
 
 Vocabulary
 ==========
@@ -154,10 +154,10 @@ Target audiences
 # Who is likely to implement the 451 status code?
 
 ## Server operators 
-Server operators that are being confronted with an order from a legal authority can use the HTTP status code to communicate to third parties why the content is not available on the server.
+Server operators that are being confronted with an order from a legal authority can use the HTTP Status Code to communicate to third parties why the resource is not available on the server.
 
 ## Intermediaries 
-Intermediaries such as Internet Service Providers, Content Distribution Networks and other might be obligated by a legal authority in their operational jurisdiction to filter certain content. The HTTP status code would add transparency to this practice.
+  Intermediaries such as Internet Service Providers, Content Distribution Networks and other might be obligated by a legal authority in their operational jurisdiction to filter certain content. The HTTP status code would add transparency to this practice.
 
 # Who is likely to use the 451 status code data?
 
@@ -253,6 +253,7 @@ What features of blocking events are supported by the existing 451 status code, 
 
 - {{RFC7725}} does not clarify whether HTTP Status Code 451 is only meant for respones to GET/HEAD requests or also for POST/HEAD requests. 
 
+- Guidance on a HTTP link header to indicate that a resources that is linked on the page, but not loaded, is no longer available for legal reasons.
 
 Background: Legal Realities
 ===========================
@@ -282,6 +283,21 @@ Law No. 149-FZ on Information, Information Technologies and Protection of Inform
 This law was approved by the Parliament and, if passed, will oblige messaging apps to store messaging history and decrypt messages at prosecutors’ request. 
 
 # Chile
+
+## Blocking by courts
+The Law No. 20.435 (Copyright Act reform from 2010) contains a notice and take down procedure, for copyright infringements under which a court order is required -instead of a private notice like happens in the DMCA– to have content taken down.
+A Supreme Court decision from 2016 held that it was possible to request a news oulet to remove content in its website to enforce the constitutional right of privacy, when the data is no longer relevant and it availability on the network cause harm to the data subject. The case was controversial because the information was about a public servant condemned in a pedophilia case. This decision has been used to enforce a kind of ‘right to be forgotten’ for lower courts since the Supreme Court decision, but there is a lack of general legislation that clarify this cause of removals. 
+On the other hand, the Law No. 20.453 tackles intermediary non-interference from the perspective of users by adding to the general rules within the General Telecommunications Act (Law Nº 18.168) new rules for internet service providers. Among those rules the internet service providers “shall not block or interfere in any way with the rights of the user to use any content, application or service on the internet; but they may take traffic management measures or block contents upon user requests (and to their cost)”.
+
+# Iran
+
+## Blocking by government
+The Committee Charged with Determining Offensive Content (CCDOC) is the official authority on censorship and blocking of web content in Iran. The Supreme Council of Cyberspace (SCC), established in 2012, develops policies related to cyberspace governance. However, blocking and filtering directives originate from various levels of the government, including through direct orders by the judiciary independent of the SCC and CCDOC. Other organizations involved in the censorship process include the Iranian Cyber Police (FATA) and the Telecommunication Company of Iran. By national law, the Telecommunication Company of Iran (TCI) is the exclusive provider of Internet bandwidth in the country. All ISPs have to purchase bandwidth from TCI and are legally bound to use censoring software. Such a system enables a centralized filtering program for all Internet traffic in the country.
+
+## Blocking by courts
+In Iran, freedom of expression is regulated by the Penal Code and the Press Law of 1986. The Press Law was amended in 2000 to mandate that publishing online without a license was grounds for blocking, effectively censoring services such as Google, Facebook and Twitter. Iran also has Internet-specific laws, such as the 2001 resolution called "Regulations and Conditions Related to Computerized Information Networks" that ordered that ISPs remove 'offensive' websites and mandated the use of filtering technology. The main law in terms of applicability to Internet censorship is the Computer Crimes Law (CCL) of 2009. CCL prescribes articles that provide for content-based restrictions on the Internet usage of Iranian citizens. Articles 21 through 23, in particular, hold ISPs liable for filtering content and reporting illegal material (as described in the articles) to a 'web crimes committee' made up of government officials. ISPs are also required to store usage data and logs about visited web pages for a window of at least six months.
+It is worth noting that none of the terms used in the CCL are defined strictly, potentially over-broadening its scope. There have been many cases of Iranian bloggers being prosecuted for violation of censorship laws.
+National Internet Project: The Iranian government has been working towards the creation of a National Internet Network which would domestically host all accessible Internet content, isolating Iranian citizens from the World Wide Web. Implementation of the national network would make it easier for the government to block services and web pages through measures such as intelligent filtering. Already the use of social networking platforms such as Facebook, Instagram and Viber is heavily monitored and controlled.
 
 # India
 
