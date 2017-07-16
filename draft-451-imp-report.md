@@ -109,7 +109,18 @@ informative:
      author:
       name: Laura Quilter
       ins: L. Quilter
+     author:
+      name: Jennifer M. Urban
+      ins: J.M. Urban
      date: 2005
+
+   ElManzalawy:
+     target: https://www.lumendatabase.org/blog_entries/789
+     title: Should the Mugshot Industry be Regulated? States Push Legislation to Protect Individuals from Disproportionate Reputational Harm
+     author:
+      name: Mostafa El Manzalawy
+      ins: M. El Manzalawy
+     date: 2017
 
 --- abstract
 
@@ -319,3 +330,43 @@ objections from the poster to claims of copyright -- to the original
 complaintant. The complaintant must notify the website operator that it
 has filed a lawsuite within 10-14 days or the website can reinstate
 the removed material.
+
+## Other US-based forms of takedown
+
+There are a number of other legal methods that are used with much less
+frequency in the United States:
+
+* Defamation: Under US law, balancing the freedom of speech in the US
+  constitution is also a right to be free from untrue attacks on one's
+  reputation.  Threats and lawsuits are regularly filed claiming
+  statements are untrue and reputationally damaging.
+
+* Rights of publicity: The United States has a number of States that
+  recognize a "right of publicity", typically a right enjoyed by
+  celebrities and public figures to limit the ability of others to use
+  their likeness, name, or recognizable features for commercial
+  purposes.
+
+* Non-consensual sexually-explicit imagery: A number of content
+  providers and online content hosts (intermediaries) have begun to
+  honor request to take down material that may include
+  sexually-explicit imagery that was either captured without consent
+  or shared online without consent (cite).
+
+* Mugshot images: Images taken in the process of a law enforcement
+  arrest or detention have increasingly been subject to state-based
+  regulation in the United States, recognizing that people may suffer
+  undue reputational harm from the display and searchability of tis
+  kind of content {{ElManzalawy}}.
+
+* Trademark-based takedowns: A US law, The Anti-cybersquatting
+  Consumer Protection Act (ACPA), protects the owners of trademarks
+  from abuse by entities "cybersquatting" on domain names that contain
+  their trademarks (cybersquatting is proactively registering a domain
+  name to demand substantial fees from the trademark holder).
+  Trademark holders can use the remedies in this law to request
+  cancellation or transfer of the domain name as well as damages.
+
+* E-Commerce Patents: Because software can be patented in the United
+  States, there are regular claims made by patent holders against
+  online content and services that they claim infringe their patent.
