@@ -134,7 +134,7 @@ This report describes implementation experience between various components worki
 Introduction
 ============
 
-This document evaluates the usage of HTTP Status Code 451, which was standardized by the IETF in February 2016 {{RFC7725}}. This implementation report aims to illuminate whether the status code does what it set out to do ("provide transparency in circumstances where issues of law or public policy affect server operations"), the different ways it is being used, positive and negative impacts of the standard and we end with suggestions for improvement of the standard. 
+This document evaluates the usage of HTTP Status Code 451, which was standardized by the IETF in February 2016 {{RFC7725}}. This implementation report aims to illuminate whether the status code does what it set out to do ("provide transparency in circumstances where issues of law or public policy affect server operations"), the different ways it is being used, positive and negative impacts the standard might have and we end with suggestions for improvement of the standard. 
 
 Vocabulary
 ==========
@@ -273,8 +273,8 @@ What features of blocking events are supported by the existing 451 status code, 
 
 - Guidance on a HTTP link header to indicate that a resources that is linked on the page, but not loaded, is no longer available for legal reasons.
 
-Background: Legal Realities
-===========================
+Appendix: Legal Realities
+=========================
 
 In the light of the use cases outlined above underneath we are providing an overview of legal frameworks in a number of countries that could be used to make a blocking request. This is to show that a reference to a the description of blocked content, the legal source on which the blocking order or request is based and the authority that is makes the order or request is crucial in understanding the context and nature of the blockage.
 
