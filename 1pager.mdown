@@ -14,9 +14,7 @@ Users want you to make the right choices, and so do governments. By being transp
 If you are witholding content from your users, they will want to know why that is (and potentially what they can do against it). Not doing this could erode trust in your company. At the same time, authorities will want to understand whether you have complied with their legal requirements. Standards help you make the right choices.
 
 ## Technical Standards
-HTTP status code 451 gives users, researchers and 
-
-
+HTTP Status Code 451 helps you clearly communicating why content is not available, as well as providing users with a method for recourse. HTTP Status Code 451 streamlines the process of communicating the technically and legally why content is unavailable.
 
 ## Legal Standards
 The Universal Declaration on Human Rights (UDHR) and the International Covenant on Civil and Political Rights (ICCPR) guarantee the right to freedom of expression, both in Article 19. Freedom of expression is not only important in its own right but is also essential if other human rights are to be achieved.
@@ -38,13 +36,9 @@ Limitation is legitimate if it falls within the very narrow conditions defined i
 2. ‘…legitimate aim…’
 3. ‘…necessity…’
 
-More info can be found here
+More info can be found here: https://www.article19.org/resources.php/resource/38586/en/freedom-of-expression-unfiltered:-how-blocking-and-filtering-affect-free-speech
 
+If you have any questions on implementing HTTP Status Code 451, please get in contact with us!
 
-
-
-
-
-
-
-Nonetheless when provided by law and a court has determined that a blocking measure is necessary in order to protect the rights of other
+Niels ten Oever niels@article19.org
+Joe Lorenzo Hall joe@cdt.org
