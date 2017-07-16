@@ -2,7 +2,7 @@
 - Implementing Standards on Blocking and Filtering -
 		
 ## Don't block, until you have to
-The Internet was build to provide connectivity, and not to limit it. In specific cases courts might order the blocking or filtering of specific content. When an end-point or intermediary receives such a order, and it has verified that it must comply, it should implement the blocking or filtering in a transparent manner. This will help you understand how.
+The Internet was built to provide connectivity, and not to limit it. In specific cases courts might order the blocking or filtering of specific content. When an end-point or intermediary receives such a order, and it has verified that it must comply, it should implement the blocking or filtering in a transparent manner. This will help you understand how.
 
 ## Live up to the standards
 There are legal and technical standards that are related to blocking and filtering on the Internet. Human rights are an example of legal standards, while HTTP Status Code 451 (RFC 7725) is an example of a technical standard. Complying with the standards does make it easier for you understand whether you are complying with a court order, it also makes it clear to your users that you have taken your responsibility.
@@ -11,10 +11,10 @@ There are legal and technical standards that are related to blocking and filteri
 Users want you to make the right choices, and so do governments. By being transparent about what measures you have taken, you are keeping the trust of the different communities that you are serving, as well as the technical and business community that you are part of.
 
 ## Business risks of not complying with technical and legal standards
-If you are witholding content from your users, they will want to know why that is (and potentially what they can do against it). Not doing this could erode trust in your company. At the same time, authorities will want to understand whether you have complied with their legal requirements. Standards help you make the right choices.
+If you are witholding content from your users, they will want to know why that is (and potentially what they can do in response). Not doing this could erode trust in your company. At the same time, authorities will want to understand whether you have complied with their legal requirements. Standards help you make the right choices.
 
 ## Technical Standards
-HTTP Status Code 451 helps you clearly communicating why content is not available, as well as providing users with a method for recourse. HTTP Status Code 451 streamlines the process of communicating the technically and legally why content is unavailable.
+HTTP Status Code 451 helps you clearly communicate why content is not available, as well as provides users with a method for recourse. HTTP Status Code 451 streamlines the process of communicating the technical and legal reasons why content is unavailable.
 
 ## Legal Standards
 The Universal Declaration on Human Rights (UDHR) and the International Covenant on Civil and Political Rights (ICCPR) guarantee the right to freedom of expression, both in Article 19. Freedom of expression is not only important in its own right but is also essential if other human rights are to be achieved.
