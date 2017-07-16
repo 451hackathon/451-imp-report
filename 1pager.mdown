@@ -39,6 +39,3 @@ Limitation is legitimate if it falls within the very narrow conditions defined i
 More info can be found here: https://www.article19.org/resources.php/resource/38586/en/freedom-of-expression-unfiltered:-how-blocking-and-filtering-affect-free-speech
 
 If you have any questions on implementing HTTP Status Code 451, please get in contact with us!
-
-Niels ten Oever niels@article19.org
-Joe Lorenzo Hall joe@cdt.org
