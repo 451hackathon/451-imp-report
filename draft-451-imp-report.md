@@ -303,6 +303,8 @@ Under Section 79 of the Information Technology Act 2000, both the government and
 
 # United States of America
 
+## Section 512 of the DMCA
+
 The United States Digital Millenium Copyright Act (DMCA) has a
 provision that has greatly shaped the landscape of online content
 {{Quilter}}. Section 512 of the DMCA has a "notice and takedown"
