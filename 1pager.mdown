@@ -1,4 +1,4 @@
-			Filtered Connectivity
+				Filtered Connectivity
 - Implementing Standards on Blocking and Filtering -
 		
 ## Don't block, until you have to
