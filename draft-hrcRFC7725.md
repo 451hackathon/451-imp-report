@@ -70,14 +70,19 @@ Connectivity
 
 HTTP 451 status code response can be sent by the end nodes as well as by intermediary nodes, which makes for a potential anonymity breach possible. However, this anonymity breach needs to be intentional.
 
+Visibility in a browser
+=======================
+
+In the web-browsing context, the HTTP status code response might only be issued for a sub-resource (e.g. images, videos, extra HTML, CSS, or JavaScript, which are each fetched using separate requests), rather than the top-level resource seen in a browser's address bar.  For example, consider a web page at https://example.net/video/ with an embedded video window implemented in html as <video><source src="movie.webm"><video>.  https://example.net/video/ may return HTTP 200, but https://example.net/video/movie.webm may return HTTP 451.  Multiple subresources on a given page may return 451.
+
+This means that visibility to a browser user might be more complex than just "this web page has been blocked".
+
 Privacy
 =======
 
 A HTTP 451 status code response could be visible to an observer on the network. An observer may be able to discern the blocked domain or URL the user attempted to access. Therefore, implementers should deploy HTTP status code over HTTPS to mitigate this privacy risk. See also RFC 7540 Hypertext Transfer Protocol Version 2 (HTTP/2), section 10.8 privacy considerations. Even where HTTPS is used, metadata is still available to an observer. That metadata could be used to identify a device, it's location and/or a user (especially when combined with other observable data).
 
-Some implementations of {{RFC7725}} send the HTTP status code response for sub-resources (e.g. images, videos, extra HTML, CSS, or JavaScript, which are each fetched using separate requests), rather than the complete content served via a URL. [Privacy implications?]
-
-Some implementations of {{RFC7725}} send the HTTP status code response and then re-direct to another URL [insert reference to research revealing this]. [insert text as to why this is a problem from a privacy perspective]. Implementers should not imbed tracking elements in either web resource.
+Some implementations of {{RFC7725}} send the HTTP status code response and then re-direct to another URL [insert reference to research revealing this]. [also describe the specific redirection mechanism(s) used -- javascript?  html meta refresh tag?  something else?] [insert text as to why this is a problem from a privacy perspective]. Implementers should not imbed tracking elements in either web resource.
 
 {{RFC7725}} provides that a HTTP status code 451 is cachable by default. Caching status code 451 on users' devices means that there will be a record of their attempt to access the blocked content stored on their devices. If caching is used, the 451 status code response should notify users.
 
