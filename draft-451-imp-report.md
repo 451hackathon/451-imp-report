@@ -332,57 +332,20 @@ Under Section 79 of the Information Technology Act 2000, both the government and
 
 ## Section 512 of the DMCA
 
-The United States Digital Millenium Copyright Act (DMCA) has a
-provision that has greatly shaped the landscape of online content
-{{Quilter}}. Section 512 of the DMCA has a "notice and takedown"
-procedure that copyright holders can use to assert that a piece of
-copyrighted material has been posted against their wishes and that it
-should be taken down. Under this provision, after a website operator
-receives a 512 notice, it must: 1) remove the material
-"expeditiously"; 2) notify the poster that someone has alleged
-copyright infringement in that material and that the material has been
-removed; and 3) send any "counternotices" from the poster --
-objections from the poster to claims of copyright -- to the original
-complaintant. The complaintant must notify the website operator that it
-has filed a lawsuite within 10-14 days or the website can reinstate
-the removed material.
+The United States Digital Millenium Copyright Act (DMCA) has a provision that has greatly shaped the landscape of online content {{Quilter}}. Section 512 of the DMCA has a "notice and takedown" procedure that copyright holders can use to assert that a piece of copyrighted material has been posted against their wishes and that it should be taken down. Under this provision, after a website operator receives a 512 notice, it must: 1) remove the material "expeditiously"; 2) notify the poster that someone has alleged copyright infringement in that material and that the material has been removed; and 3) send any "counternotices" from the poster -- objections from the poster to claims of copyright -- to the original complaintant. The complaintant must notify the website operator that it has filed a lawsuite within 10-14 days or the website can reinstate the removed material.
 
 ## Other US-based forms of takedown
 
-There are a number of other legal methods that are used with much less
-frequency in the United States:
+There are a number of other legal methods that are used with much less frequency in the United States:
 
-* Defamation: Under US law, balancing the freedom of speech in the US
-  constitution is also a right to be free from untrue attacks on one's
-  reputation.  Threats and lawsuits are regularly filed claiming
-  statements are untrue and reputationally damaging.
+* Defamation: Under US law, balancing the freedom of speech in the US constitution is also a right to be free from untrue attacks on one's reputation.  Threats and lawsuits are regularly filed claiming statements are untrue and reputationally damaging.
 
-* Rights of publicity: The United States has a number of States that
-  recognize a "right of publicity", typically a right enjoyed by
-  celebrities and public figures to limit the ability of others to use
-  their likeness, name, or recognizable features for commercial
-  purposes.
+* Rights of publicity: The United States has a number of States that recognize a "right of publicity", typically a right enjoyed by celebrities and public figures to limit the ability of others to use their likeness, name, or recognizable features for commercial purposes.
 
-* Non-consensual sexually-explicit imagery: A number of content
-  providers and online content hosts (intermediaries) have begun to
-  honor request to take down material that may include
-  sexually-explicit imagery that was either captured without consent
-  or shared online without consent (cite).
+* Non-consensual sexually-explicit imagery: A number of content providers and online content hosts (intermediaries) have begun to honor request to take down material that may include sexually-explicit imagery that was either captured without consent or shared online without consent (cite).
 
-* Mugshot images: Images taken in the process of a law enforcement
-  arrest or detention have increasingly been subject to state-based
-  regulation in the United States, recognizing that people may suffer
-  undue reputational harm from the display and searchability of tis
-  kind of content {{ElManzalawy}}.
+* Mugshot images: Images taken in the process of a law enforcement arrest or detention have increasingly been subject to state-based regulation in the United States, recognizing that people may suffer undue reputational harm from the display and searchability of this kind of content {{ElManzalawy}}.
 
-* Trademark-based takedowns: A US law, The Anti-cybersquatting
-  Consumer Protection Act (ACPA), protects the owners of trademarks
-  from abuse by entities "cybersquatting" on domain names that contain
-  their trademarks (cybersquatting is proactively registering a domain
-  name to demand substantial fees from the trademark holder).
-  Trademark holders can use the remedies in this law to request
-  cancellation or transfer of the domain name as well as damages.
+* Trademark-based takedowns: A US law, The Anti-cybersquatting Consumer Protection Act (ACPA), protects the owners of trademarks from abuse by entities "cybersquatting" on domain names that contain their trademarks (cybersquatting is proactively registering a domain name to demand substantial fees from the trademark holder). Trademark holders can use the remedies in this law to request cancellation or transfer of the domain name as well as damages.
 
-* E-Commerce Patents: Because software can be patented in the United
-  States, there are regular claims made by patent holders against
-  online content and services that they claim infringe their patent.
+* E-Commerce Patents: Because software can be patented in the United States, there are regular claims made by patent holders against online content and services that they claim infringe their patent.
