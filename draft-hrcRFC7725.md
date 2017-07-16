@@ -68,7 +68,7 @@ This is draft applies the model for developing human rights protocol considerati
 Connectivity
 ============
 
-HTTP 451 status code response can be sent by the end nodes as well as by intermediary nodes, which makes for a potential anonimity breach possible. However, this anonimity breach needs to be intentional.
+HTTP 451 status code response can be sent by the end nodes as well as by intermediary nodes, which makes for a potential anonymity breach possible. However, this anonymity breach needs to be intentional.
 
 Privacy
 =======
@@ -92,17 +92,17 @@ The status code 451 is both content agnostic and content gnostic. It is content 
 Security
 ========
 
-HTTP 451 status code responses are unverified which make them a possible vehicule to introduce malware. The malware could be specifically implemented with the purpose to surveile the final user that is trying to access an specific type of content that has been censored.
+HTTP 451 status code responses are unverified which make them a possible vehicle to introduce malware. The malware could be specifically implemented with the purpose to surveil the final user that is trying to access an specific type of content that has been censored.
 
 Internationalization
 ====================
 
 The RFC does not require the use of any particular language and therefore when the standard is being implemented any language could be used.
 
-Censorhip Resistance
+Censorship Resistance
 ====================
 
-While HTTP 451 status code cannot prevent censorship it can help make censorship more transparent and make assessment of Internet censorship cases easier.  "Censorship is where an entity in a position of power - such as a government, organization, or individual - suppresses communication that it considers objectionable, harmful, sensitive, politically incorrect or inconvenient." Legal means have been used for censoring content for a long time, and what HTTP 451 status code does is demonstrate when legal means meet technical means online. Blocking is still censorship, and status code 451 doesn't solve the problem, but creates a way for more transparent reporting of censorship that can be useful for the analysis and advocacy. Also, If the users are informed about why their access to a specific resource was denied they can opt to use curcumvention techniques.
+While HTTP 451 status code cannot prevent censorship it can help make censorship more transparent and make assessment of Internet censorship cases easier.  "Censorship is where an entity in a position of power - such as a government, organization, or individual - suppresses communication that it considers objectionable, harmful, sensitive, politically incorrect or inconvenient." Legal means have been used for censoring content for a long time, and what HTTP 451 status code does is demonstrate when legal means meet technical means online. Blocking is still censorship, and status code 451 doesn't solve the problem, but creates a way for more transparent reporting of censorship that can be useful for the analysis and advocacy. Also, If the users are informed about why their access to a specific resource was denied they can opt to use circumvention techniques.
 
 Open Standards
 ==============
@@ -122,12 +122,12 @@ Possible anonymity concerns as identifiers might be introduced by the parties se
 Accessibility
 =============
 
-The RFC can be currently implemented in two ways for resources. Either the server could either return a HTML file without any automatic redirect or a HTML file with an automatic redirect. The second option could interfere with accessiblity because disabled end users may not have sufficient time to use their accessibility software and hardware to read the status code and other details. Therefore it is recommended that the RFC be updated to ensure that the display of a HTTP 451 status code response should be untimed and static to provide users enough time to read and use the content. 
+The RFC can be currently implemented in two ways for resources. Either the server could either return a HTML file without any automatic redirect or a HTML file with an automatic redirect. The second option could interfere with accessibility because disabled end users may not have sufficient time to use their accessibility software and hardware to read the status code and other details. Therefore it is recommended that the RFC be updated to ensure that the display of a HTTP 451 status code response should be untimed and static to provide users enough time to read and use the content. 
 
 Localization
 ============
 
-HTTP 451 status code implies a reference to legal reasons for making a content unaccesible. Those legal implications usually will concern a national legal framework that it will not be always easy to understand for non legal operators or users from different jurisdictions who are being affected by the lack of access for legal reasons. When it comes to localization for language, locale etc. the RFC does not explicitly provide for internationalization of text strings but implementers of the standards can localize the text strings nevertheless.
+HTTP 451 status code implies a reference to legal reasons for making a content unaccessible. Those legal implications usually will concern a national legal framework that it will not be always easy to understand for non legal operators or users from different jurisdictions who are being affected by the lack of access for legal reasons. When it comes to localization for language, locale etc. the RFC does not explicitly provide for internationalization of text strings but implementers of the standards can localize the text strings nevertheless.
 
 Reliability
 ===========
@@ -138,7 +138,7 @@ Additionally, many companies include in their Terms of Service prohibited types 
 Confidentiality
 ===============
 
-HTTP 451 status code use implies sharing of information by the reporter that make it easier to identify where censorship is taking place. It can expose to goverments engaging with censorship who is more willing to colaborate blocking content making them an easier target for further actions of censorship. 
+HTTP 451 status code use implies sharing of information by the reporter that make it easier to identify where censorship is taking place. It can expose to governments engaging with censorship who is more willing to collaborate blocking content making them an easier target for further actions of censorship. 
 
 Integrity
 =========
@@ -148,7 +148,7 @@ For integrity, a status code 451 should be delivered over HTTPS.
 Authenticity
 ============
 
-Implementation of the status code 451 could guarantee authenticity in most cases if the server operators implement HTTPS. However that only guarantees authenticity during the last mile of transit between the server serving the status code and the end user. There is no way in which the status code guarantee that the server operator is not serving false information about a particular instance of censorship. This could happen deliberately under a variety of circumstance - the server operator is masking self-censorship as government censorship or the server operator has self-interest in misrepresenting the facts about government or private censorship. Lack of legal expertise or capacity could also result in false information being served to the user. Many start-ups and non-profits cannot afford legal teams with the requisite expertise and many large corporation reserve their best lawyers for core business activities leaving censorship related activities to interns and junior staff. There is no real incentive beyond good (corporate) citizenship for server operators to tell the truth and therefore this is an area for concern when it comes to implemetation of the status code.
+Implementation of the status code 451 could guarantee authenticity in most cases if the server operators implement HTTPS. However that only guarantees authenticity during the last mile of transit between the server serving the status code and the end user. There is no way in which the status code guarantee that the server operator is not serving false information about a particular instance of censorship. This could happen deliberately under a variety of circumstance - the server operator is masking self-censorship as government censorship or the server operator has self-interest in misrepresenting the facts about government or private censorship. Lack of legal expertise or capacity could also result in false information being served to the user. Many start-ups and non-profits cannot afford legal teams with the requisite expertise and many large corporation reserve their best lawyers for core business activities leaving censorship related activities to interns and junior staff. There is no real incentive beyond good (corporate) citizenship for server operators to tell the truth and therefore this is an area for concern when it comes to implementation of the status code.
 
 Adaptability
 ============
@@ -158,7 +158,7 @@ Status code 451 does not have any legal or technical limitations which prevents 
 Outcome Transparency
 ====================
 
-The assumption behind the development of the status code 451 is that transparency has a chilling effect on censorship and that transparency will enable the process of justice by allowing acts of censorship to be challenged. This is the very same assumption behind the publication of transparency reports by various Internet corporations like Google, Facebook and Twitter. Unfortunately, this has not always been the case - in some countries the transparency reports may have contributed to competitive behaviour thereby increasing censorship. In some countries, blocks orders are unevenly implemented by ISPs either because it does not serve their bottom-lines or they are resisting censorship - governments in those countries could mandate the implementation of status code 521 which will make it easier for them to monitor the implementation of their block orders. Finally, surveillance systems in some countries could be updated to watch out for the 521 error code on unencrypted traffic making it easier to identify those trying to access prohibited content. Before the implementation of this standard there would be no uninformity in which websites would implement a block order increasing the number of false postives for any automated monitoring systems.
+The assumption behind the development of the status code 451 is that transparency has a chilling effect on censorship and that transparency will enable the process of justice by allowing acts of censorship to be challenged. This is the very same assumption behind the publication of transparency reports by various Internet corporations like Google, Facebook and Twitter. Unfortunately, this has not always been the case - in some countries the transparency reports may have contributed to competitive behavior thereby increasing censorship. In some countries, blocks orders are unevenly implemented by ISPs either because it does not serve their bottom-lines or they are resisting censorship - governments in those countries could mandate the implementation of status code 521 which will make it easier for them to monitor the implementation of their block orders. Finally, surveillance systems in some countries could be updated to watch out for the 521 error code on unencrypted traffic making it easier to identify those trying to access prohibited content. Before the implementation of this standard there would be no uniformity in which websites would implement a block order increasing the number of false positives for any automated monitoring systems.
 
 Security Considerations
 =======================
