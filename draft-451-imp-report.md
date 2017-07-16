@@ -62,12 +62,6 @@ author:
      organization: Cisco Systems
      email: shivankaulsahib@gmail.com
 
--
-     ins: S. Sahib
-     name: Shivan Sahib
-     organization: Cisco
-     email: ssahib@cisco.com
-
 normative:
 
 informative:
