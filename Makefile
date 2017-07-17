@@ -1,4 +1,4 @@
-DRAFTS = 451-imp-report hrcRFC7725
+DRAFTS = 451-imp-report manyfolks-hrcrfc7725
 OUTPUTS = $(foreach draft,$(DRAFTS),draft-${draft}.html draft-${draft}.xml draft-${draft}.txt)
 STAGING = staging.xml
 
