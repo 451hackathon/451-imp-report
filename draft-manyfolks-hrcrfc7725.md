@@ -1,7 +1,7 @@
 ---
 title: Human Rights Considerations for RFC7725
 abbrev: hrcRFC775
-docname: draft-hrcRFC7725-00
+docname: draft-manyfolks-hrcrfc7725-00
 date: 2017-07-15
 category: info
 
@@ -73,7 +73,13 @@ HTTP 451 status code response can be sent by the end nodes as well as by interme
 Visibility in a browser
 =======================
 
-In the web-browsing context, the HTTP status code response might only be issued for a sub-resource (e.g. images, videos, extra HTML, CSS, or JavaScript, which are each fetched using separate requests), rather than the top-level resource seen in a browser's address bar.  For example, consider a web page at https://example.net/video/ with an embedded video window implemented in html as <video><source src="movie.webm"><video>.  https://example.net/video/ may return HTTP 200, but https://example.net/video/movie.webm may return HTTP 451.  Multiple subresources on a given page may return 451.
+In the web-browsing context, the HTTP status code response might only be issued for a sub-resource (e.g. images, videos, extra HTML, CSS, or JavaScript, which are each fetched using separate requests), rather than the top-level resource seen in a browser's address bar.  For example, consider a web page at https://example.net/video/ with an embedded video window implemented in html as 
+
+~~~~
+<video><source src="movie.webm"><video>.
+~~~~
+
+https://example.net/video/ may return HTTP 200, but https://example.net/video/movie.webm may return HTTP 451.  Multiple subresources on a given page may return 451.
 
 This means that visibility to a browser user might be more complex than just "this web page has been blocked".
 

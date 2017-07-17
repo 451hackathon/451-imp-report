@@ -6,7 +6,7 @@ date: 2017-07-15
 category: info
 
 ipr: trust200902
-area: General
+area: IRTF
 workgroup: Human Rights Protocol Considerations Research Group
 keyword: Internet-Draft
 
