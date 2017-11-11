@@ -206,17 +206,21 @@ Governments might want to verify compliance with blocking orders and use HTTP st
 Current Usage
 =============
 
+TODO fix the Markdown style: dash headings or equal headings?
+
+TODO no explanation at all of the crawling methodology
+
 # Overview
 
-In the majority of cases in which HTTP status code 451 is being deployed {{Censys}}, the status code reads as follows - "451 Unavailable For Legal Reasons" or "451" or "451 Unknown Error" or "451 Error" or "451 Unavailable For Legal Reasons (burned)" or "451 OK". The Page Title could say "404 Not Found" or "Blocked" or "451 -" or "Restricted access" or "Bloqueado por ordem judicial" ("Blocked by judicial order") or "Sito censurato" ("Censored site") or "Доступ ограничен" ("Access is restricted") or "Зелёная точка - доступ к запрашиваемому ресурсу ограничен" ("Zelenaya tochka" - Internet and TV provider - access to the requested resource is restricted")or "Violazione del bispensiero" or "Please report sexual abuse against children to the Swedish National  Bureau of Investigation!" or "Copyright Notice" or "451 RKN Redirect" (RKN is likely Russia's Roskomnadzor) or "ATTENZIONE!! - POLIZIA POSTALE E DELLE COMUNICAZIONI - PAGINA BLOCCATA" ("Attention! - Postal and Communications Policy - Blocked Page") or "451 Unavailable For Legal Reasons 本网站由于国家政策而不可用" (Chinese: "This site is not available due to national policy").
+In the majority [TODO of course if you enumerate all te possibilities, it is a majority :-) ] of cases in which HTTP status code 451 is being deployed {{Censys}}, the status code reads as follows - "451 Unavailable For Legal Reasons" or "451" or "451 Unknown Error" or "451 Error" or "451 Unavailable For Legal Reasons (burned)" or "451 OK". The Page Title could say "404 Not Found" or "Blocked" or "451 -" or "Restricted access" or "Bloqueado por ordem judicial" ("Blocked by judicial order") or "Sito censurato" ("Censored site") or "Доступ ограничен" ("Access is restricted") or "Зелёная точка - доступ к запрашиваемому ресурсу ограничен" ("Zelenaya tochka" - Internet and TV provider - access to the requested resource is restricted")or "Violazione del bispensiero" or "Please report sexual abuse against children to the Swedish National  Bureau of Investigation!" or "Copyright Notice" or "451 RKN Redirect" (RKN is likely Russia's Roskomnadzor) or "ATTENZIONE!! - POLIZIA POSTALE E DELLE COMUNICAZIONI - PAGINA BLOCCATA" ("Attention! - Postal and Communications Policy - Blocked Page") or "451 Unavailable For Legal Reasons 本网站由于国家政策而不可用" (Chinese: "This site is not available due to national policy").
 
-The hosts that were observed implementing the status code are located in Russia, United States of America, Singapore, Czech Republic, Thailand, Netherlands, Portugal, Spain, Italy, Greece, Bulgaria, Hungary, Germany, France, United Kingdom, Ukraine, Norway, Finland, Kazakhstan, United Arab Emirates, Japan, China, Philippines and Australia. In some cases - the visitor to the website is provided some context for the block -- for example, a take-down notice for copyright infringment -- in other cases the visitor is encouraged to  cooperate with law enforcement agencies. The page title may have information that does not always make sense in the context of the error code, for example when the title says "404 Not Found" but the page is a 451 response body. These observations are based an examination of the search results from Censys.io on 15 July 2017 which featured 526 IPv4 Hosts of which 17 were included in the list of "Top Million Websites".
+The hosts that were observed implementing the status code are located in Russia, United States of America, Singapore, Czech Republic, Thailand, Netherlands, Portugal, Spain, Italy, Greece, Bulgaria, Hungary, Germany, France, United Kingdom, Ukraine, Norway, Finland, Kazakhstan, United Arab Emirates, Japan, China, Philippines and Australia. In some cases - the visitor to the website is provided some context for the block -- for example, a take-down notice for copyright infringment -- in other cases the visitor is encouraged to  cooperate with law enforcement agencies. The page title may have information that does not always make sense in the context of the error code, for example when the title says "404 Not Found" but the page is a 451 response body. These observations are based an examination of the search results from Censys.io [TODO so, the data does not come from the hackathon crawler(s)? ] on 15 July 2017 which featured 526 IPv4 Hosts of which 17 were included in the list of "Top Million Websites".
 
-Several large content providers are now supporting the HTTP 451 Status Code, such as {{Github}} and {{Reddit}}, whereas other content providers such as {{Twitter}}, {{Facebook}}, and {{Youtube}} are currently not using the HTTP status code to indicate the blocking or takedown of specific content.
+Several large content providers are now supporting the HTTP 451 Status Code, such as {{Github}} [TODO would be nice to show actual examples] and {{Reddit}}, whereas other content providers such as {{Twitter}}, {{Facebook}}, and {{Youtube}} are currently not using the HTTP status code to indicate the blocking or takedown of specific content.
 
 # Trends and observations
 
-- The majority of instance of HTTP status code 451 provide no explanation in the response body.
+- The majority [TODO how much?] of instance of HTTP status code 451 provide no explanation in the response body.
 
 - There have been found several cases of servers serving HTTP status code 451 with redirect another server with a central warning message of a blocking authority.
 
@@ -224,7 +228,7 @@ Several large content providers are now supporting the HTTP 451 Status Code, suc
 
 - There are significant observations of server serving HTTP status code 451 based on geoIP (especially for gambling sites).
 
-- There are different understandings of the 'blocked-by' field as defined in RFC7725. Some people interpret is as the entity that is doing the blocking, others are interpreting it at the authority responsible for ordering the blocking.
+- There are different understandings of the 'blocked-by' field as defined in RFC7725. Some people interpret is as the entity that is doing the blocking, others are interpreting it at the authority responsible for ordering the blocking. [TODO the second category is *wrong*, RFC7725 is clear about that.]
 
 - HTTP Status Code 451 is thusfar only served by hosts, not by intermediaries.
 
@@ -233,7 +237,7 @@ Potential negative or positive impacts
 
 - {{RFC7725}} specifies a status code for web resources that are blocked for legal reasons. The HTTP status code 451 is designed to enable content providers and intermediaries (including ISPs and search engines) to notify users that their access to specific web resources has been blocked for legal reasons. The standard also recommends that the notification include an explanation. This is important because this is the detail the user needs to be able to understand why access has been blocked, and if desired, to take action to challenge the blocked access. It also helps content servers and intermediaries who have been required to block access to notify users who directed that access by blocked.
 
-- Also, as the 451 status code is machine-readable, researchers and others could use web crawlers to identity which blocked URLs or sub-resources use error code 451. This data could be used to produce a searchable open repository of all known error code 451 instances. This information could then be used to map the blocked Web and to analyze the explanations, looking for trends and anomalies. For example, one day there might be an answer to the question – “how much content is blocked for IPR reasons?”
+- Also, as the 451 status code is machine-readable, researchers and others could use web crawlers to identity which blocked URLs or sub-resources use error code 451. This data could be used to produce a searchable open repository of all known error code 451 instances. This information could then be used to map the blocked Web and to analyze the explanations, looking for trends and anomalies. For example, one day there might be an answer to the question – “how much content is blocked for IPR reasons?” [TODO not with the current RFC7725, which does not indicate the *reason* for the blocking in a machine-readable way.]
 
 - The 451 status code can also be used for encrypted webpages, which is significant as encryption on the Web becomes more and more prevalent. A user should be able to see the error code irrespective of whether they try to access the content via HTTP or HTTPS.
 
@@ -270,6 +274,7 @@ What are features of a blocking reporting infrastructure that would be useful?
 
 -- Contact information for relevant authority for the purposes of verification of procedural stage and appeal or redress opportunities.
 
+TODO: all these are good ideas but, in practice, there is very little chance that people fill in so many details. Experience of the Web show that people add only the minimum, and often indicate wrong or stale information.] 
 
 What features of blocking events are supported by the existing 451 status code, and what features do we need to add?
 ====================================================================================================================
